@@ -46,7 +46,7 @@
      * @type {String}
      * @default https://foodcatalog-api-dot-bpiproject-145417.appspot.com/beta
      */
-    this.basePath = 'https://foodcatalog-api-dot-bpiproject-145417.appspot.com/beta'.replace(/\/+$/, '');
+    this.basePath = 'https://20170808t005605-dot-foodcatalog-api-dot-bpiproject-145417.appspot.com/beta'.replace(/\/+$/, '');
 
     /**
      * The authentication methods to be included for all API calls.
