@@ -48,7 +48,7 @@
     var _this = this;
 
     _this['user_id'] = userId;
-    _this['media_b64'] = mediaB64;
+    _this['media'] = mediaB64;
   };
 
   /**
@@ -65,8 +65,8 @@
       if (data.hasOwnProperty('user_id')) {
         obj['user_id'] = ApiClient.convertToType(data['user_id'], 'String');
       }
-      if (data.hasOwnProperty('media_b64')) {
-        obj['media_b64'] = ApiClient.convertToType(data['media_b64'], 'String');
+      if (data.hasOwnProperty('media')) {
+        obj['media'] = ApiClient.convertToType(data['media'], 'String');
       }
     }
     return obj;
@@ -79,9 +79,9 @@
   exports.prototype['user_id'] = undefined;
   /**
    * content of the image base64 encoded
-   * @member {String} media_b64
+   * @member {String} media
    */
-  exports.prototype['media_b64'] = undefined;
+  exports.prototype['media'] = undefined;
 
 
 

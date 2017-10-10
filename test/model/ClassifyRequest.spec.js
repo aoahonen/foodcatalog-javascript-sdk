@@ -60,7 +60,7 @@
       //expect(instance).to.be();
     });
 
-    it('should have the property mediaB64 (base name: "media_b64")', function() {
+    it('should have the property mediaB64 (base name: "media")', function() {
       // uncomment below and update the code to test the property mediaB64
       //var instane = new PassioFoodCatalog.ClassifyRequest();
       //expect(instance).to.be();

@@ -1,6 +1,6 @@
 {
   "name": "PassioFoodCatalog",
-  "version": "0.2.0-beta.1",
+  "version": "0.1.0-alpha.1",
   "description": "Welcome_to_the__Passiolife_httpswww_passiolife_com_Food_Catalog_API_The_Passiolife_Catalog_API_is_organized_around_the__REST_httpen_wikipedia_orgwikiRepresentational_State_Transfer_methodology_and_it_uses_resource_oriented_URLs_and_common_HTTP_response_codes_to_indicate_API_errors__All_requests_are_authenticated_using_an_api_key_which_can_be_obtained_by_signing_up__",
   "license": "Unlicense",
   "main": "src/index.js",

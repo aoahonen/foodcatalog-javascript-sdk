@@ -44,9 +44,9 @@
     /**
      * The base URL against which to resolve every API call's (relative) path.
      * @type {String}
-     * @default https://foodcatalog-api-dot-bpiproject-145417.appspot.com/beta
+     * @default http://api.passio.tools
      */
-    this.basePath = 'https://20170808t005605-dot-foodcatalog-api-dot-bpiproject-145417.appspot.com/beta'.replace(/\/+$/, '');
+    this.basePath = ' http://api.passio.tools'.replace(/\/+$/, '');
 
     /**
      * The authentication methods to be included for all API calls.
