@@ -46,7 +46,7 @@
      * @type {String}
      * @default http://api.passio.tools
      */
-    this.basePath = ' http://api.passio.tools'.replace(/\/+$/, '');
+    this.basePath = 'http://api.passio.tools'.replace(/\/+$/, '');
 
     /**
      * The authentication methods to be included for all API calls.
